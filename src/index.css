@@ -1,0 +1,14 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontally center content */
+  /* no justify-content: center to allow natural scrolling */
+}

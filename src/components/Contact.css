@@ -1,0 +1,139 @@
+/* ==============================
+   Contact Section - Dark Elegant Theme
+   ============================== */
+
+.contact-section {
+  padding: 6rem 2rem;
+  background: radial-gradient(circle at top right, #1e293b, #0f172a);
+  color: #e2e8f0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.contact-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Decorative glow orbs */
+.contact-section::before,
+.contact-section::after {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(129,140,248,0.3), transparent 70%);
+  filter: blur(70px);
+  z-index: 0;
+}
+
+.contact-section::before {
+  top: -40px;
+  right: -40px;
+}
+
+.contact-section::after {
+  bottom: -40px;
+  left: -40px;
+}
+
+.contact-section .container {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin: 0.5rem 0;
+  line-height: 1.8;
+}
+
+/* Contact info cards */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact-info p {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  min-width: 250px;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info p a {
+  color: #38bdf8;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info p a:hover {
+  color: #818cf8;
+}
+
+/* Hover effect on cards */
+.contact-info p:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+/* ==============================
+   Responsive Adjustments
+   ============================== */
+@media (max-width: 768px) {
+  .contact-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .contact-section p {
+    font-size: 1.1rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info p {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 4rem 1rem;
+  }
+
+  .contact-section h2 {
+    font-size: 1.85rem;
+  }
+
+  .contact-section p {
+    font-size: 1rem;
+  }
+}
