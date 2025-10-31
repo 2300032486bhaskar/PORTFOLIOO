@@ -26,7 +26,7 @@ const Hero = () => {
           className="hero-photo"
         />
         <h1>
-          Hi, I'm <span className="highlight">Venkata Ramakrishna Bhaskar</span>
+          Hi, I'm <span className="highlight">NIKHIL REDDY BHEEMIREDDY</span>
         </h1>
         <p>A passionate Web Developer building modern and responsive websites.</p>
         <div className="hero-buttons">
@@ -34,8 +34,8 @@ const Hero = () => {
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn secondary">Download Resume</a>
         </div>
         <div className="social-icons">
-          <a href="https://github.com/2300032486bhaskar" target="_blank" rel="noopener noreferrer"><FaGithub size={24} /></a>
-          <a href="https://www.linkedin.com/in/venkata-ramakrishna-bhaskar-kandukuri-041701279/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} /></a>
+          <a href="https://github.com/NikhilReddy3011" target="_blank" rel="noopener noreferrer"><FaGithub size={24} /></a>
+          <a href="https://www.linkedin.com/in/nikhil-reddy-25b967372" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} /></a>
           <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /></a>
         </div>
       </div>

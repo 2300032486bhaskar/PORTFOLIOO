@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <h1 className="logo">KANDUKURI VENKATA RAMAKRISHNA BHASKAR</h1>
+        <h1 className="logo">BHEEMIREDDY NIKHIL REDDY</h1>
 
         {/* Navigation Links */}
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>

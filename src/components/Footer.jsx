@@ -20,11 +20,11 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="social-icons">
-        <a href="https://github.com/2300032486bhaskar" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://www.linkedin.com/in/venkata-ramakrishna-bhaskar-kandukuri-041701279/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://x.com/bhaskar_0987?s=21" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://github.com/NikhilReddy3011" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/nikhil-reddy-25b967372" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
       </div>
-      <p>© {new Date().getFullYear()} Venkat Bhaskar. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} NIKHIL REDDY. All rights reserved.</p>
     </footer>
   );
 };

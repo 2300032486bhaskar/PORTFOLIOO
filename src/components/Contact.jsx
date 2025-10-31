@@ -24,10 +24,10 @@ const Contact = () => {
         <p>You can reach me at:</p>
         <div className="contact-info">
           <p>
-            <strong>Mobile:</strong> <a href="tel:+919346017550">+91 9346017550</a>
+            <strong>Mobile:</strong> <a href="tel:+918919956622">+91 8919956622</a>
           </p>
           <p>
-            <strong>Email:</strong> <a href="mailto:kkvrbhaskar@gmail.com">kkvrbhaskar@gmail.com</a>
+            <strong>Email:</strong> <a href="mailto:nikhilbheemireddy@gmail.com">nikhilbheemireddy@gmail.com</a>
           </p>
         </div>
       </div>
